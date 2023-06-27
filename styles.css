@@ -1,0 +1,48 @@
+body {
+    background-color: #FFC0CB;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: #fff;
+    border: 2px dotted black;
+    padding: 12px;
+}
+
+.box input {
+    margin-bottom: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.delete {
+    border: none;
+    color: red;
+    font-weight: bolder;
+    background-color: transparent;
+}

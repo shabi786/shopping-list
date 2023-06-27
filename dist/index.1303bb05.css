@@ -1,0 +1,50 @@
+body {
+  background-color: pink;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.box {
+  background-color: #fff;
+  border: 2px dotted #000;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 12px;
+  display: flex;
+}
+
+.box input {
+  margin-bottom: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.list-container {
+  flex-direction: column;
+  gap: 12px;
+  width: 80%;
+  display: flex;
+}
+
+.list-item {
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  display: flex;
+}
+
+.delete {
+  color: red;
+  background-color: #0000;
+  border: none;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */
